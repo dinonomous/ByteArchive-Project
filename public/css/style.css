@@ -12,7 +12,7 @@ body{
 
 
 .first{
-    background: radial-gradient(rgba(67, 197, 7, 0.5), rgba(67, 197, 7, 0.5)), url(pexels-peng-liu-45946-169677\(copy\).jpg);
+    background: radial-gradient(rgba(67, 197, 7, 0.5), rgba(67, 197, 7, 0.5)), url(../images/pexels-peng-liu-45946-169677\(copy\).jpg);
     background-size: cover;
     height: 86.25vh;
     width: 70vw;
@@ -52,7 +52,7 @@ body{
                 -1px 0 0 black;
 }
 
-.container{
+.customContainer{
     display: flex;
     flex-direction: column;
     width: 40vw;
@@ -99,7 +99,7 @@ body{
     height: 24px;
   }
 
-.container input{
+.customContainer input{
     box-sizing: border-box;
     font-family: inherit;
     font-size: 20px;
@@ -120,7 +120,7 @@ body{
 
 }
 
-.container input:focus{
+.customContainer input:focus{
     outline: 2px solid #0f62fe;
     outline-offset: -2px;
 }
